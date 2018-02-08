@@ -16,8 +16,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".CrimePagerActivity"
-            android:theme="@style/Base.Theme.AppCompat.Light">
-
+            android:theme="@style/Base.Theme.AppCompat.Light"
+            android:parentActivityName=".CrimeListActivity">
         </activity>
     </application>
 
